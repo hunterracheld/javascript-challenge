@@ -53,6 +53,7 @@ body {
 }
 
 /* Adding styles to the aside and filter form */
+
 .ufo-form {
   margin-top: 50px;
 }
@@ -93,24 +94,27 @@ select {
 
 /* The styles for the parallax */
 .hero {
+  
   position: relative;
   height: 550px;
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/plan9.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
 }
 
 .hero h1 {
+  color: #4e5d6c;
   margin-top: 200px;
   font-size: 0.1rem;
   animation: title 1.2s forwards linear;
 }
 
 .hero p {
+  color: white;
   font-size: 2rem;
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
